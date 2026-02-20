@@ -2,7 +2,7 @@
 
 ---
 
-## 🔑 Project Category Key
+## Project Category Key
 
 This portfolio is color-coded to highlight project focus:
 
@@ -15,7 +15,7 @@ This portfolio is color-coded to highlight project focus:
 
 ---
 
-## 🚀 Featured Projects 
+## Featured Projects 
 
 #### Homelab-SIEM: Virtual SOC & Threat Detection Lab
 [![Project](https://img.shields.io/badge/View_Project-1E88E5?style=for-the-badge)](https://github.com/jyblackshaw/Homelab-Siem)
