@@ -30,7 +30,7 @@ This portfolio is color-coded to highlight project focus:
 [![Project](https://img.shields.io/badge/View_Project-5D3FD3?style=for-the-badge)](https://github.com/jyblackshaw/FBXEditor)
 * Unity Editor tool for non-destructive modification of imported FBX models (static and skinned).
 * Features a high-performance, per-triangle mesh separator, a skinned mesh-aware combiner, and tools for baking transforms, editing pivots, and auto-linking textures.
-* **Generated 1800$+ in revenue since 10/15/25**
+* **Generated 5000$+ in revenue since 10/15/25**
 * Technologies: `C#` `Unity Editor` `Unity Job System` `Burst Compiler` `IMGUI`
 
 ---
