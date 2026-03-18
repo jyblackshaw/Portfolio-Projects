@@ -31,6 +31,7 @@ This portfolio is color-coded to highlight project focus:
 * Unity Editor tool for non-destructive modification of imported FBX models (static and skinned).
 * Features a high-performance, per-triangle mesh separator, a skinned mesh-aware combiner, and tools for baking transforms, editing pivots, and auto-linking textures.
 * **Generated 5000$+ in revenue since 10/15/25**
+* Invited to 2 Official Unity Asset Store Sales.
 * Technologies: `C#` `Unity Editor` `Unity Job System` `Burst Compiler` `IMGUI`
 
 ---
