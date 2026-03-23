@@ -35,6 +35,13 @@ This portfolio is color-coded to highlight project focus:
 * Invited to Game.tv Humble Bundle.
 * Technologies: `C#` `Unity Editor` `Unity Job System` `Burst Compiler` `IMGUI`
 
+
+#### Assembly Architect
+[![Project](https://img.shields.io/badge/View_Project-5D3FD3?style=for-the-badge)](https://github.com/jyblackshaw/FBXEditor)
+* Unity Editor tool for management of unity .Asmdef files.
+* Allows viewing project Assembly Definitions files from a graph view, automatic error detection and resolution, and compile time analysis.
+* Technologies: `
+
 ---
 
 #### WebCrawler & Search Engine
