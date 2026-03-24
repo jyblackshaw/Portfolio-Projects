@@ -17,7 +17,7 @@ This portfolio is color-coded to highlight project focus:
 
 ## Featured Projects 
 
-#### Homelab-SIEM: Virtual SOC & Threat Detection Lab
+#### Homelab-SOC: Enterprise Network Security Lab 
 [![Project](https://img.shields.io/badge/View_Project-1E88E5?style=for-the-badge)](https://github.com/jyblackshaw/Homelab-Siem)
 * **Architected and deployed a segmented virtual enterprise network** (DMZ, CORP, SOC, Attack subnets) with a central **pfSense firewall** enforcing default-deny policies, NAT port forwarding, and centralized DNS resolution.
 * Built a full **Active Directory** domain with OUs, security groups, GPOs (Restricted Groups, password policy, audit policy), and least-privilege access controls validated through role-based testing.
