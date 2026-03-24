@@ -19,10 +19,12 @@ This portfolio is color-coded to highlight project focus:
 
 #### Homelab-SIEM: Virtual SOC & Threat Detection Lab
 [![Project](https://img.shields.io/badge/View_Project-1E88E5?style=for-the-badge)](https://github.com/jyblackshaw/Homelab-Siem)
-* **Architected and deployed a segmented, defense-in-depth virtual enterprise network** (DMZ, LAN, SOC, Attack), governed by a single **pfSense firewall** enforcing Least Privilege.
-* Implemented **Splunk Enterprise** as the central SIEM, configuring log forwarding (Syslog/UF) from all network devices and services (Apache, MySQL) for real-time security monitoring.
-* **Validated defensive posture** through controlled **threat emulation** (port scanning, brute-force) using Kali Linux, successfully developing and deploying **custom detection rules** in Splunk to flag the malicious activity.
-* Technologies: `VMware` `pfSense` `Splunk Enterprise` `Kali Linux` `Ubuntu Server` `Windows Server` `MySQL`
+* **Architected and deployed a segmented virtual enterprise network** (DMZ, CORP, SOC, Attack subnets) with a central **pfSense firewall** enforcing default-deny policies, NAT port forwarding, and centralized DNS resolution.
+* Built a full **Active Directory** domain with OUs, security groups, GPOs (Restricted Groups, password policy, audit policy), and least-privilege access controls validated through role-based testing.
+* Deployed **Splunk Enterprise** as the central SIEM with Universal Forwarders across all endpoints, custom field extractions, and SPL queries detecting account lockouts, brute force attacks, reverse shell attempts, and credential tampering.
+* Performed **offensive exercises** including command injection to full DB compromise, brute force attacks via Burp Suite, and reverse shell exploitation - then investigated each from the defensive side using Splunk log analysis.
+* Ran **OpenVAS vulnerability scans** against domain-joined endpoints and the DVWA webserver, with GPO-based firewall adjustments to enable scanning across subnets.
+* Technologies: `VMware` `pfSense` `Splunk Enterprise` `Kali Linux` `Ubuntu Server` `Windows Server` `Active Directory` `MariaDB` `DVWA` `Burp Suite` `OpenVAS` `KeePass`
 
 ---
 
@@ -37,10 +39,10 @@ This portfolio is color-coded to highlight project focus:
 
 
 #### Assembly Architect
-[![Project](https://img.shields.io/badge/View_Project-5D3FD3?style=for-the-badge)](https://github.com/jyblackshaw/FBXEditor)
-* Unity Editor tool for management of unity .Asmdef files.
+[![Project](https://img.shields.io/badge/View_Project-5D3FD3?style=for-the-badge)](https://github.com/jyblackshaw/Assembly-Architect)
+* Unity Editor tool for visualization and management of Unity Assembly Definitions.
 * Allows viewing project Assembly Definitions files from a graph view, automatic error detection and resolution, and compile time analysis.
-* Technologies: `
+* Technologies: `C#` `Unity Editor` `Roslyn .NET`
 
 ---
 
